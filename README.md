@@ -22,7 +22,7 @@ Execute the C Program for the desired output.
 
 ## C program that receives a message from message queue and display them
 writer.c
-```
+```c
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -52,7 +52,7 @@ int main()
 }
 ```
 reader.c
-```
+```c
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
